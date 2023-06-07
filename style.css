@@ -7,6 +7,7 @@ html *{
     letter-spacing: 1px;
 }
 body{
+    margin: 0;
     background-color:rgb(254, 249, 243) ;
 }
 
@@ -28,6 +29,36 @@ html{
     min-width:50%;
 }
 
+/* Design styles */
+
+/* .curve{
+    position: absolute;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+}
+
+.curve::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+
+    background-color: blue;
+}
+
+.curve::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+
+    background-color:  rgb(254, 249, 243) ;
+} */
 /* Header Styles */
 
 .mainHeader{
@@ -52,18 +83,35 @@ html{
 .navItem{
     padding: 15px;
     font-size: 1.2em;
+    text-decoration: none;
+    color: black;
 }
 
-.contactNum a {
+.navItem:hover{
+    color: rgb(83, 165, 237);
+    cursor: pointer;
+}
+
+.contactNum a, .contactNum a:hover {
     text-decoration: none;
 }
+
 
 .navBtn{
     color: #fff;
     background-color: red;
     border-radius: 8px;
-    padding: 10px;
+    padding: 10px 15px;
+    margin-left: 20px;
+
+    text-decoration: none;
 }
+
+.navBtn:hover{
+    cursor: pointer;
+    background-color: rgb(161, 2, 2);
+}
+
 /* Banner Styles */
 
 .banner{
