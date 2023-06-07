@@ -11,91 +11,106 @@
             <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap" rel="stylesheet">
 
             <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="viewports.css">
 
         </head>
         <body>
             <div class="mainWrapper">
                 <header class="header">
-                    <div class="mainHeader">
+                    <div class="mainHeader container">
                         <div class="logo">
                             <img src="img/LAA_Logo_Web_Sentence.svg">
                         </div>
                         <div class="nav">
-                            <div class="contactNum">
+                            <div class="contactNum hiddenXS">
                                 <p>Call us on:<a href="tel:01455888257"> <strong>01455888257</strong></a></p>
                             </div>
                             <div class="mainNav">
-                                <a href='#' class="navItem">
+                                <a href='#' class="navItem hiddenXS hiddenS hiddenM">
                                     Adopt
                                 </a>
-                                <a href='#'class="navItem">
+                                <a href='#'class="navItem hiddenXS hiddenS hiddenM">
                                     Get Involved
                                 </a>
-                                <a href='#'class="navItem">
+                                <a href='#'class="navItem hiddenXS hiddenS hiddenM hiddenLg">
                                     Our Centre
                                 </a>
-                                <a href='#'class="navItem">
+                                <a href='#'class="navItem hiddenXS hiddenS hiddenM hiddenLg">
                                     How we help
                                 </a>
-                                <a href='#'class="navItem">
+                                <a href='#'class="navItem hiddenXS hiddenS hiddenM">
                                     Contact
                                 </a>
                                 <a href='#'class="navItem">
                                     <i class="fa-solid fa-magnifying-glass"></i>
                                 </a>
-                                <a href='#'class="navBtn">
-                                    Donate
-                                </a>
+                                <div class="btnContainer">
+                                    <a href='#'class="navBtn btn hiddenXS">
+                                        Donate
+                                    </a>
+                                    <div class="hamburgerMain">
+                                        <div class="hamburgerInner">
+                                            <span class="hamburgerLine"></span>
+                                            <span class="hamburgerLine"></span>
+                                            <span class="hamburgerLine"></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </header>
                 <div class="banner">
-                    <div class="bannerInfo halver">
+                    <div class="bannerInfo">
                         <div class="bannerContent">
                           <h2>Leicester Animal Aid is a rehoming centre</h2>
                             <p>Every year at our centre in Huncote, we care for more than 300 dogs and cats who are lost, abandoned, neglected, unwanted or relinquished because their owners can no longer care for them.</p>
-                            <div class="bannerActions halver">
-                                <a class="bannerBtn">
+                            <div class="bannerActions">
+                                <a href="#" class="bannerBtn btn">
                                     About us
                                 </a>
-                                <a class="bannerLink">
+                                <a href='#' class="bannerLink">
                                     Visit our centre
                                 </a>
                             </div>  
                         </div>  
                     </div>
-                    <div class="bannerImgContainer">
-                        <img class="bannerImg" src="img/Mask Group 32.jpg">
+                    <div class="bannerImgContainer hiddenXS hiddenS hiddenM">
+                        <img class="bannerImg" src="img/MaskGroup32.jpg">
                     </div>
                 </div>
             </div>
-            <div class="mainContent">
-                    <div class="adoptionInfo">
-                        <h2>
-                            <strong>Adopting a rescue pet</strong>
-                        </h2>
-                        <p>
-                            Our qualified and experience team will help to find you a great match for your home, family and lifestyle. We offer a lifetime of free advice and support once youve taken your new family member home.
-                        </p>
-                        <a href="#" class="adoptLink">
-                            The adoptions process
+            <div class="mainContent container">
+                <div class="adoptionInfo">
+                    <h2>
+                        <strong>Adopting a rescue pet</strong>
+                    </h2>
+                    <p>
+                        Our qualified and experience team will help to find you a great match for your home, family and lifestyle. We offer a lifetime of free advice and support once youve taken your new family member home.
+                    </p>
+                    <a href="#" class="adoptLink">
+                        The adoptions process
+                    </a>
+                </div>
+                <div class="cardContainer">
+                    <div class="card">
+                        <img class="adoptHero" src="img/paul 2.jpg">
+                        <a class="adoptBtn btn">
+                            Dogs for adoption
                         </a>
                     </div>
-                    <div class="cardContainer">
-                        <div class="card">
-                            <img class="adoptHero" src="img/paul 2.jpg">
-                            <a class="adoptBtn">
-                                Dogs for adoption
-                            </a>
-                        </div>
-                        <div class="card">
-                            <img class="adoptHero" src="img/_DSC1810.jpg">
-                            <a class="adoptBtn">
-                                Cats for adoption
-                            </a>
-                        </div>
+                    <div class="card">
+                        <img class="adoptHero" src="img/_DSC1810.jpg">
+                        <a class="adoptBtn btn">
+                            Cats for adoption
+                        </a>
                     </div>
+                </div>
             </div>
+            <footer class="footer">
+                <div class="footerContent">
+                    <!-- <p>copyright</p> -->
+                </div>
+            </footer>
         </body>
     </html>
