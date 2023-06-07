@@ -1,0 +1,200 @@
+
+/* Global styles */
+
+html *{
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+body{
+    background-color:rgb(254, 249, 243) ;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+/* Helper Styles */
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.halver{
+    min-width:50%;
+}
+
+/* Header Styles */
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-left: 130px;
+    margin-right: 130px;
+
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.navItem{
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.contactNum a {
+    text-decoration: none;
+}
+
+.navBtn{
+    color: #fff;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+}
+/* Banner Styles */
+
+.banner{
+    display: flex;
+    width: 100vw;
+}
+
+.bannerInfo{
+    background-color: rgb(42, 60, 115);
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    
+    border-radius: 0 10em 10em 70em / 100%; 
+    z-index: 2;
+
+}
+
+.bannerImg{
+    margin-left: -70px;
+    margin-right: 0;
+    z-index: 1;
+
+    border-radius: 0 0 40em 0/ 100%;
+}
+
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: flex-start;
+    width: 60%;
+    margin: auto;
+}
+
+.bannerContent h2{
+    font-size: 2.7em;
+    font-weight: 600;
+}
+
+.bannerContent p {
+    font-size: 1.1em;
+}
+
+.bannerActions{
+    display: flex;
+    align-items: baseline;
+}
+
+.bannerBtn {
+    padding: 13px;
+    border-radius: 8px;
+    background-color: rgb(83, 165, 237);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.bannerLink{
+    margin-left: 20px;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+/* Main Content styles */
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.adoptionInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+.adoptionInfo h2 {
+    color:rgb(42, 60, 115);
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.adoptLink{
+    color:rgb(83, 165, 237);
+    font-size: 1.1em;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card img{
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+
+    
+
+
+    object-fit: cover;
+}
+
+.adoptBtn{
+    background-color: rgb(42, 60, 115);
+    color: #fff;
+
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 200px;
+
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+
+    position: relative;
+    top: -30px
+    
+}
