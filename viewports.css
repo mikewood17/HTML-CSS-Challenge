@@ -19,9 +19,6 @@
 
 @media (min-width: 465px){
 
-    .hamburgerMain{
-        display: none;
-    }
     
 }
 
@@ -47,6 +44,13 @@
         max-width: 200px;
     }
 
+    .navItem i {
+        font-size: 1.4em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
 } 
 
 @media (min-width: 650px){
@@ -67,9 +71,12 @@
  
 }
 
-@media (min-width: 768px){
+@media (min-width: 769px){
  
-   
+    .hamburgerMain{
+        display: none;
+    }
+
 }
 
 @media (max-width: 790px){
@@ -84,6 +91,10 @@
     .bannerInfo{
         width: 100%;
     }
+
+    .adoptionInfo{
+        width: 60%;
+    }
 }
 
 @media (max-width: 979px) and (min-width: 791px) {
@@ -93,6 +104,10 @@
 
     .bannerContent p, .bannerBtn, .bannerLink{
         font-size: 1em;
+    }
+
+    .adoptionInfo{
+        width: 80%;
     }
 }
 
